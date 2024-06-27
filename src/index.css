@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-form{
+  margin: 20px auto;
+}
+
+.user-form, .repo-table {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.user-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-form button,
+.reset-button,
+.repo-table button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.user-form button:hover,
+.reset-button:hover,
+.repo-table button:hover {
+  background-color: #0056b3;
+}
+
+.user-info {
+  width: 30%;
+}
+
+.user-info td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left; 
+}
+
+h3{
+  text-align: left;
+}
+
+.repo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.repo-table th,
+.repo-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.repo-table th {
+  background-color: #f2f2f2;
+}
+
+.repo-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.repo-table a:hover {
+  text-decoration: underline;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+.user-profile img {
+  margin-right: 10px; 
+}
+
+.user-profile h2 {
+  margin: 0;
+}
